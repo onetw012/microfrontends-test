@@ -1,0 +1,21 @@
+{
+  "name": "microfrontends-test",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Anton Lukashenko <alukas@softserveinc.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "build_parts": "parcel build microfrontend-1/src/index.jsx microfrontend-2/src/index.jsx"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-bundle-visualiser": "^1.2.0"
+  }
+}

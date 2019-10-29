@@ -1,0 +1,15 @@
+Microfrontends:
+    Store
+    Routing (memory)
+    Styles (styled components / css-modules / etc.)
+    Could be written in any framework
+
+Container:
+    Authorisation/User
+    Backend communication
+
+communication between container and child apps: CustomEvent
+
+
+Downsides:
+possible conflicts of frameworks, libs, etc.
